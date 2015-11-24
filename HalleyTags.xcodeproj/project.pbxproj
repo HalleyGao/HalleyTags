@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0464C711C04694800EA90EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464C701C04694800EA90EA /* main.m */; };
+		C0464C741C04694800EA90EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464C731C04694800EA90EA /* AppDelegate.m */; };
+		C0464C771C04694800EA90EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464C761C04694800EA90EA /* ViewController.m */; };
+		C0464C7A1C04694800EA90EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0464C781C04694800EA90EA /* Main.storyboard */; };
+		C0464C7C1C04694800EA90EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0464C7B1C04694800EA90EA /* Assets.xcassets */; };
+		C0464C7F1C04694800EA90EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0464C7D1C04694800EA90EA /* LaunchScreen.storyboard */; };
+		C0464C8A1C04694800EA90EA /* HalleyTagsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464C891C04694800EA90EA /* HalleyTagsTests.m */; };
+		C0464C951C04694800EA90EA /* HalleyTagsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464C941C04694800EA90EA /* HalleyTagsUITests.m */; };
+		C0464CA41C04698E00EA90EA /* HGFillLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464CA31C04698E00EA90EA /* HGFillLabel.m */; };
+		C0464CA71C0469C700EA90EA /* HGTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0464CA61C0469C700EA90EA /* HGTagView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0464C861C04694800EA90EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0464C641C04694800EA90EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0464C6B1C04694800EA90EA;
+			remoteInfo = HalleyTags;
+		};
+		C0464C911C04694800EA90EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0464C641C04694800EA90EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0464C6B1C04694800EA90EA;
+			remoteInfo = HalleyTags;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0464C6C1C04694800EA90EA /* HalleyTags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HalleyTags.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0464C701C04694800EA90EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0464C721C04694800EA90EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0464C731C04694800EA90EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0464C751C04694800EA90EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0464C761C04694800EA90EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0464C791C04694800EA90EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0464C7B1C04694800EA90EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0464C7E1C04694800EA90EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0464C801C04694800EA90EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0464C851C04694800EA90EA /* HalleyTagsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalleyTagsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0464C891C04694800EA90EA /* HalleyTagsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalleyTagsTests.m; sourceTree = "<group>"; };
+		C0464C8B1C04694800EA90EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0464C901C04694800EA90EA /* HalleyTagsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalleyTagsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0464C941C04694800EA90EA /* HalleyTagsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HalleyTagsUITests.m; sourceTree = "<group>"; };
+		C0464C961C04694800EA90EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0464CA21C04698E00EA90EA /* HGFillLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGFillLabel.h; sourceTree = "<group>"; };
+		C0464CA31C04698E00EA90EA /* HGFillLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGFillLabel.m; sourceTree = "<group>"; };
+		C0464CA51C0469C700EA90EA /* HGTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HGTagView.h; sourceTree = "<group>"; };
+		C0464CA61C0469C700EA90EA /* HGTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HGTagView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0464C691C04694800EA90EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C821C04694800EA90EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C8D1C04694800EA90EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0464C631C04694700EA90EA = {
+			isa = PBXGroup;
+			children = (
+				C0464C6E1C04694800EA90EA /* HalleyTags */,
+				C0464C881C04694800EA90EA /* HalleyTagsTests */,
+				C0464C931C04694800EA90EA /* HalleyTagsUITests */,
+				C0464C6D1C04694800EA90EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0464C6D1C04694800EA90EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0464C6C1C04694800EA90EA /* HalleyTags.app */,
+				C0464C851C04694800EA90EA /* HalleyTagsTests.xctest */,
+				C0464C901C04694800EA90EA /* HalleyTagsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0464C6E1C04694800EA90EA /* HalleyTags */ = {
+			isa = PBXGroup;
+			children = (
+				C0464CA21C04698E00EA90EA /* HGFillLabel.h */,
+				C0464CA31C04698E00EA90EA /* HGFillLabel.m */,
+				C0464C721C04694800EA90EA /* AppDelegate.h */,
+				C0464CA51C0469C700EA90EA /* HGTagView.h */,
+				C0464CA61C0469C700EA90EA /* HGTagView.m */,
+				C0464C731C04694800EA90EA /* AppDelegate.m */,
+				C0464C751C04694800EA90EA /* ViewController.h */,
+				C0464C761C04694800EA90EA /* ViewController.m */,
+				C0464C781C04694800EA90EA /* Main.storyboard */,
+				C0464C7B1C04694800EA90EA /* Assets.xcassets */,
+				C0464C7D1C04694800EA90EA /* LaunchScreen.storyboard */,
+				C0464C801C04694800EA90EA /* Info.plist */,
+				C0464C6F1C04694800EA90EA /* Supporting Files */,
+			);
+			path = HalleyTags;
+			sourceTree = "<group>";
+		};
+		C0464C6F1C04694800EA90EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0464C701C04694800EA90EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0464C881C04694800EA90EA /* HalleyTagsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0464C891C04694800EA90EA /* HalleyTagsTests.m */,
+				C0464C8B1C04694800EA90EA /* Info.plist */,
+			);
+			path = HalleyTagsTests;
+			sourceTree = "<group>";
+		};
+		C0464C931C04694800EA90EA /* HalleyTagsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0464C941C04694800EA90EA /* HalleyTagsUITests.m */,
+				C0464C961C04694800EA90EA /* Info.plist */,
+			);
+			path = HalleyTagsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0464C6B1C04694800EA90EA /* HalleyTags */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0464C991C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTags" */;
+			buildPhases = (
+				C0464C681C04694800EA90EA /* Sources */,
+				C0464C691C04694800EA90EA /* Frameworks */,
+				C0464C6A1C04694800EA90EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HalleyTags;
+			productName = HalleyTags;
+			productReference = C0464C6C1C04694800EA90EA /* HalleyTags.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0464C841C04694800EA90EA /* HalleyTagsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0464C9C1C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTagsTests" */;
+			buildPhases = (
+				C0464C811C04694800EA90EA /* Sources */,
+				C0464C821C04694800EA90EA /* Frameworks */,
+				C0464C831C04694800EA90EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0464C871C04694800EA90EA /* PBXTargetDependency */,
+			);
+			name = HalleyTagsTests;
+			productName = HalleyTagsTests;
+			productReference = C0464C851C04694800EA90EA /* HalleyTagsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0464C8F1C04694800EA90EA /* HalleyTagsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0464C9F1C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTagsUITests" */;
+			buildPhases = (
+				C0464C8C1C04694800EA90EA /* Sources */,
+				C0464C8D1C04694800EA90EA /* Frameworks */,
+				C0464C8E1C04694800EA90EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0464C921C04694800EA90EA /* PBXTargetDependency */,
+			);
+			name = HalleyTagsUITests;
+			productName = HalleyTagsUITests;
+			productReference = C0464C901C04694800EA90EA /* HalleyTagsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0464C641C04694800EA90EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Halley Gao";
+				TargetAttributes = {
+					C0464C6B1C04694800EA90EA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C0464C841C04694800EA90EA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C0464C6B1C04694800EA90EA;
+					};
+					C0464C8F1C04694800EA90EA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C0464C6B1C04694800EA90EA;
+					};
+				};
+			};
+			buildConfigurationList = C0464C671C04694800EA90EA /* Build configuration list for PBXProject "HalleyTags" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0464C631C04694700EA90EA;
+			productRefGroup = C0464C6D1C04694800EA90EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0464C6B1C04694800EA90EA /* HalleyTags */,
+				C0464C841C04694800EA90EA /* HalleyTagsTests */,
+				C0464C8F1C04694800EA90EA /* HalleyTagsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0464C6A1C04694800EA90EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0464C7F1C04694800EA90EA /* LaunchScreen.storyboard in Resources */,
+				C0464C7C1C04694800EA90EA /* Assets.xcassets in Resources */,
+				C0464C7A1C04694800EA90EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C831C04694800EA90EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C8E1C04694800EA90EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0464C681C04694800EA90EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0464CA41C04698E00EA90EA /* HGFillLabel.m in Sources */,
+				C0464C771C04694800EA90EA /* ViewController.m in Sources */,
+				C0464C741C04694800EA90EA /* AppDelegate.m in Sources */,
+				C0464CA71C0469C700EA90EA /* HGTagView.m in Sources */,
+				C0464C711C04694800EA90EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C811C04694800EA90EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0464C8A1C04694800EA90EA /* HalleyTagsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0464C8C1C04694800EA90EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0464C951C04694800EA90EA /* HalleyTagsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0464C871C04694800EA90EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0464C6B1C04694800EA90EA /* HalleyTags */;
+			targetProxy = C0464C861C04694800EA90EA /* PBXContainerItemProxy */;
+		};
+		C0464C921C04694800EA90EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0464C6B1C04694800EA90EA /* HalleyTags */;
+			targetProxy = C0464C911C04694800EA90EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0464C781C04694800EA90EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0464C791C04694800EA90EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0464C7D1C04694800EA90EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0464C7E1C04694800EA90EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0464C971C04694800EA90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0464C981C04694800EA90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0464C9A1C04694800EA90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HalleyTags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTags;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0464C9B1C04694800EA90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HalleyTags/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTags;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0464C9D1C04694800EA90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HalleyTagsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTagsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalleyTags.app/HalleyTags";
+			};
+			name = Debug;
+		};
+		C0464C9E1C04694800EA90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HalleyTagsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTagsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HalleyTags.app/HalleyTags";
+			};
+			name = Release;
+		};
+		C0464CA01C04694800EA90EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalleyTagsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTagsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalleyTags;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C0464CA11C04694800EA90EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HalleyTagsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hg.HalleyTagsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HalleyTags;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0464C671C04694800EA90EA /* Build configuration list for PBXProject "HalleyTags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0464C971C04694800EA90EA /* Debug */,
+				C0464C981C04694800EA90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0464C991C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTags" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0464C9A1C04694800EA90EA /* Debug */,
+				C0464C9B1C04694800EA90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0464C9C1C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTagsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0464C9D1C04694800EA90EA /* Debug */,
+				C0464C9E1C04694800EA90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0464C9F1C04694800EA90EA /* Build configuration list for PBXNativeTarget "HalleyTagsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0464CA01C04694800EA90EA /* Debug */,
+				C0464CA11C04694800EA90EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0464C641C04694800EA90EA /* Project object */;
+}
